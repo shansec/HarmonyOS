@@ -1,3 +1,4 @@
+import NavigationDemo from '../views/Nav/Navigation';
 import ColumnDemo from '../views/RCS/Column';
 import FlexDemo from '../views/RCS/Flex';
 import RelativeContainerDemo from '../views/RCS/RelativeContainer';
@@ -13,7 +14,7 @@ struct Index {
 
   build() {
     Column() {
-      SwiperDemo()
+      NavigationDemo()
     }
     .width("100%")
     .height("100%")

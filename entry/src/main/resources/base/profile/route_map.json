@@ -1,0 +1,9 @@
+{
+  "routerMap": [
+    {
+      "name": "NavigateDemo",
+      "pageSourceFile": "src/main/ets/pages/NavigateDemo.ets",
+      "buildFunction": "NavigateDemoBuilder"
+    }
+  ]
+}
