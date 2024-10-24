@@ -11,6 +11,22 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "Huawei_tabBar_txt1",
+      "value": "今日"
+    },
+    {
+      "name": "Huawei_tabBar_txt2",
+      "value": "运动"
+    },
+    {
+      "name": "Huawei_tabBar_txt3",
+      "value": "设备"
+    },
+    {
+      "name": "Huawei_tabBar_txt4",
+      "value": "我的"
     }
   ]
 }

@@ -11,6 +11,10 @@
     {
       "name": "EntryAbility_label",
       "value": "label"
+    },
+    {
+      "name": "Huawei_tabbar_txt1",
+      "value": "today"
     }
   ]
 }

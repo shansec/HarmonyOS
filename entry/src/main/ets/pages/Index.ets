@@ -1,3 +1,6 @@
+import ButtonDemo from '../views/ButtonChoose/Button';
+import ToggleDemo from '../views/ButtonChoose/Toggle';
+import HuaweiMotion from '../views/Nav/Navigation/HuaweiMotion/HuaweiMotion';
 import NavigationDemo from '../views/Nav/Navigation/Index';
 import NavRouterDemo from '../views/Nav/NavRouter';
 import StepperDemo from '../views/Nav/Stepper';
@@ -12,15 +15,15 @@ import ScrollDemo from '../views/RollScroll/Scroll';
 import ScrollBarDemo from '../views/RollScroll/ScrollBar';
 import SwiperDemo from '../views/RollScroll/Swiper';
 import WaterFlowDemo from '../views/RollScroll/WaterFlow';
+import PersistentStorageDemo from '../views/State/PersistentStorage/PersisterStorageDemo';
 
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World';
 
   build() {
     Column() {
-      GridObjectSortComponentDemo()
+      ToggleDemo()
     }
     .width("100%")
     .height("100%")
