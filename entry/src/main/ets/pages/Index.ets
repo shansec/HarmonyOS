@@ -1,4 +1,7 @@
 import ButtonDemo from '../views/ButtonChoose/Button';
+import SelectDemo from '../views/ButtonChoose/Select';
+import TextPickerDemo from '../views/ButtonChoose/TextPicker';
+import TimePickerDemo from '../views/ButtonChoose/TimePicker';
 import ToggleDemo from '../views/ButtonChoose/Toggle';
 import HuaweiMotion from '../views/Nav/Navigation/HuaweiMotion/HuaweiMotion';
 import NavigationDemo from '../views/Nav/Navigation/Index';
@@ -23,7 +26,7 @@ struct Index {
 
   build() {
     Column() {
-      ToggleDemo()
+      SelectDemo()
     }
     .width("100%")
     .height("100%")
